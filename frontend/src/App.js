@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Dashboard from "./components/Dashboard.jsx";
-import Login from "./components/Login.jsx";
-import LoginP from "./components/Home.jsx";
+import Dashboard from "./components/Dashboard/Dashboard.jsx";
+import Login from "./components/Login/Login.jsx";
+import LoginP from "./components/Home/Home.jsx";
 
 function App() {
   return (
